@@ -1,15 +1,12 @@
 'use client';
 
-import React, { useState } from "react";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { ModeToggle } from "./(components)/mode-toggle";
-import { SunIcon } from "lucide-react";
-import "./globals.css";
+import React from "react";
 
-export default function Layout({ children }) {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+export default function Layout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html>
       <body>

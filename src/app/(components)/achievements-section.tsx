@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Award, Timer, Trophy, GraduationCap, Rocket } from "lucide-react";
+import { Trophy, GraduationCap, Rocket } from "lucide-react";
 
 export function AchievementsSection() {
   const achievements = [
